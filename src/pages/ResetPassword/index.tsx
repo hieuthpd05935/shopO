@@ -39,7 +39,7 @@ function ResetPassword() {
       confirmPassword: '',
     },
   });
-  
+
   const { password, confirmPassword } = errors;
 
   const MESSAGE = {
