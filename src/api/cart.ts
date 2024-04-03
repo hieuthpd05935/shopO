@@ -1,5 +1,5 @@
-import { AddToCartProduct, UpdateQuantityProduct } from 'src/common/types';
 import Service from 'src/service';
+import { AddToCartProduct, UpdateQuantityProduct } from 'src/common/types';
 
 export const addToCart = (data: AddToCartProduct) => Service.post('/v1/carts', data);
 
